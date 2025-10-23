@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f3f2ff;
+  color: #333;
+}
+
+header {
+  background-color: #c7b9ff;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+textarea {
+  width: 80%;
+  height: 150px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #a98dfc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8e72e3;
+}
+
+footer {
+  background-color: #c7b9ff;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.caixa {
+  background-color: #e9e6ff;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+/* ======= Modo escuro ======= */
+body.escuro {
+  background-color: #1f1f2f;
+  color: #eee;
+}
+
+body.escuro header,
+body.escuro footer {
+  background-color: #2e2e4a;
+}
+
+body.escuro .caixa {
+  background-color: #3a3a5e;
+}
+
+body.escuro button {
+  background-color: #7e68d0;
+}
+
