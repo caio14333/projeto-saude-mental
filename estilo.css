@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: #f3f2ff;
   color: #333;
+  list-style: none;
 }
 
 header {
@@ -63,7 +64,7 @@ footer {
 .caixa {
   background-color: #e9e6ff;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 20px;
   display: inline-block;
   text-align: left;
 }
@@ -89,6 +90,7 @@ body.escuro button {
   display: flex;
   width: 250px;
   justify-content: flex-start;
-  margin: -47px;
+  margin: -50px;
+
 
 }
