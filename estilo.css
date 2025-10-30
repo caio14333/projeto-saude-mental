@@ -23,6 +23,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+<<<<<<< HEAD
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -31,6 +32,18 @@ body.pagina {
   background: linear-gradient(135deg, var(--fundo-1), var(--fundo-2));
   color: var(--texto);
   padding: 18px;
+=======
+  background-color: #f3f2ff;
+  color: #333;
+  list-style: none;
+}
+
+header {
+  background-color: hsl(252, 100%, 86%);
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+>>>>>>> cd3f229ffeec2a600054cd0d81fc1a87cb9c3fbb
 }
 
 /* cabeçalho */
@@ -293,6 +306,7 @@ body.pagina {
   margin: 8px 0 0;
 }
 
+<<<<<<< HEAD
 /* contatos */
 .lista-contatos {
   display: flex;
@@ -309,6 +323,12 @@ body.pagina {
 }
 
 .link-contato {
+=======
+.caixa {
+  background-color: #e9e6ff;
+  padding: 15px;
+  border-radius: 20px;
+>>>>>>> cd3f229ffeec2a600054cd0d81fc1a87cb9c3fbb
   display: inline-block;
   margin-top: 8px;
   color: var(--verde-pastel);
@@ -316,6 +336,7 @@ body.pagina {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* caixa de frase com botão (apoio) */
 .caixa-frase {
   margin: 16px 0;
@@ -323,6 +344,11 @@ body.pagina {
   border-radius: 12px;
   background: linear-gradient(180deg, #fffcff, #f6fffb);
   box-shadow: 0 8px 20px rgba(63, 195, 159, 0.04);
+=======
+body.escuro {
+  background-color: #1f1f2f;
+  color: #eee;
+>>>>>>> cd3f229ffeec2a600054cd0d81fc1a87cb9c3fbb
 }
 
 .frase-texto {
@@ -404,4 +430,11 @@ body.pagina {
     transform: scale(1);
   }
 }
+.logo {
+  display: flex;
+  width: 250px;
+  justify-content: flex-start;
+  margin: -50px;
 
+
+}
