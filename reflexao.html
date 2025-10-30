@@ -1,42 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reflexão</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reflexão — Portal de Apoio</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
-  <header>
-    <h1>Reflexão</h1>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="informacoes.html">Informações</a>
-      <a href="apoio.html">Apoio</a>
-      <a href="reflexao.html">Reflexão</a>
-      <a href="sobre.html">Sobre</a>
+<body class="pagina">
+  <header class="cabecalho">
+  <div class="conteudo">
+    <div class="titulo-bloco">
+      <img src="mind portal.png" alt="Logo Mind Portal" class="logo-site">
+      <h1 class="titulo-principal">Mind Portal</h1>
+      <p class="subtitulo">Um espaço para cuidar de você</p>
+    </div>
+
+    <nav class="menu">
+      <a href="index.html" class="menu-link">Início</a>
+      <a href="apoio.html" class="menu-link">Apoio</a>
+      <a href="reflexao.html" class="menu-link">Reflexão</a>
+      <a href="informacoes.html" class="menu-link">Informações</a>
+      <a href="sobre.html" class="menu-link">sobre</a>
     </nav>
-    <button id="modoEscuro">🌙 Modo Escuro</button>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <h2>Escreva o que está sentindo 🖊️</h2>
-    <textarea id="textoReflexao" placeholder="Escreva aqui seus pensamentos..."></textarea>
-    <p>Caracteres digitados: <span id="contador">0</span></p>
-    <button id="botaoEnviar">Enviar</button>
 
-    <h3>Sugestões de reflexão:</h3>
-    <ul>
-      <li>O que me fez sorrir hoje?</li>
-      <li>O que posso melhorar amanhã?</li>
-      <li>Quais foram meus pequenos momentos de gratidão hoje?</li>
-    </ul>
+  <main class="principal principal-longo">
+    <article class="conteudo-grande">
+      <h2>Escreva aqui</h2>
+
+      <p class="introducao">Use este espaço para organizar pensamentos, anotar sentimentos ou escrever um diário rápido. Copie e salve em seu computador quando quiser.</p>
+
+      <label for="texto" class="sr-only">Área de escrita</label>
+      <textarea id="texto" class="area-escrita" placeholder="Escreva o que sente..."></textarea>
+
+      <div class="acoes-pagina">
+        <a class="botao-pequeno" href="#" onclick="return false">Salvar (copie manualmente)</a>
+        <a class="botao-pequeno" href="index.html">Voltar</a>
+      </div>
+
+      <h3>Sugestões para refletir</h3>
+      <ul class="lista-reflexao">
+        <li>O que me fez sorrir hoje?</li>
+        <li>Que pequeno objetivo posso ter amanhã?</li>
+        <li>Quais foram meus momentos de gratidão hoje?</li>
+      </ul>
+
+      <div class="nota-importante">
+        <p><strong>Atenção:</strong> Se houver risco ou pensamentos de se machucar, busque ajuda imediata — veja a página de Apoio.</p>
+      </div>
+    </article>
   </main>
 
-  <footer>
-    <p>Expressar é uma forma de aliviar. 🌿</p>
+  <footer class="rodape">
+    <div>© 2025 — Portal de Apoio à Saúde Mental</div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>

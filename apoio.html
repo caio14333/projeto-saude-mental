@@ -1,46 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apoio - Saúde Mental</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Apoio — Portal de Apoio</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
-  <header>
-    <h1>Apoio</h1>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="informacoes.html">Informações</a>
-      <a href="apoio.html">Apoio</a>
-      <a href="reflexao.html">Reflexão</a>
-      <a href="sobre.html">Sobre</a>
+<body class="pagina">
+  <header class="cabecalho">
+  <div class="conteudo">
+    <div class="titulo-bloco">
+      <img src="mind portal.png" alt="Logo Mind Portal" class="logo-site">
+      <h1 class="titulo-principal">Mind Portal</h1>
+      <p class="subtitulo">Um espaço para cuidar de você</p>
+    </div>
+
+    <nav class="menu">
+      <a href="index.html" class="menu-link">Início</a>
+      <a href="apoio.html" class="menu-link">Apoio</a>
+      <a href="reflexao.html" class="menu-link">Reflexão</a>
+      <a href="informacoes.html" class="menu-link">Informações</a>
+      <a href="sobre.html" class="menu-link">sobre</a>
     </nav>
-    <button id="modoEscuro">🌙 Modo Escuro</button>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <h2>Procure ajuda, você não está só 💛</h2>
-    <p>Se estiver passando por um momento difícil, não hesite em buscar apoio.</p>
 
-    <div class="caixa">
-      <h3>📞 CVV - Centro de Valorização da Vida</h3>
-      <p>Telefone: <strong>188</strong></p>
-      <p>Atendimento gratuito e confidencial 24 horas por dia.</p>
-      <a href="https://cvv.org.br" target="_blank">Acesse o site do CVV</a>
-    </div>
+  <main class="principal">
+    <section class="conteudo-grande">
+      <h2>Onde buscar ajuda</h2>
+      <p>Pedir ajuda é um passo corajoso. Abaixo há opções de contato e uma frase acolhedora para você.</p>
 
-    <div class="caixa" style="margin-top: 20px;">
-      <h3>💬 Citação Motivacional</h3>
-      <p id="citacao">Clique no botão para ver uma frase inspiradora!</p>
-      <button id="botaoCitacao">Nova Frase</button>
-    </div>
+      <div class="lista-contatos">
+        <div class="contato cartao-contato">
+          <h3>CVV — Centro de Valorização da Vida</h3>
+          <p>Telefone: <strong>188</strong></p>
+          <p>Atendimento gratuito e sigiloso 24 horas.</p>
+          <a class="link-contato" href="https://www.cvv.org.br" target="_blank" rel="noopener">Visitar site do CVV</a>
+        </div>
+
+        <div class="contato cartao-contato">
+          <h3>Posto de Saúde local</h3>
+          <p>Procure a unidade básica de saúde (UBS) da sua cidade para orientação e encaminhamento.</p>
+        </div>
+
+        <div class="contato cartao-contato">
+          <h3>Amigos e família</h3>
+          <p>Conversar com alguém de confiança pode aliviar e trazer apoio prático.</p>
+        </div>
+      </div>
+
+      <div class="caixa-frase">
+        <h3>Frase acolhedora</h3>
+        <p id="fraseAtiva" class="frase-texto">Clique em "Nova frase" para ver uma mensagem de apoio.</p>
+        <button id="botaoFrase" class="botao-pequeno">Nova frase</button>
+      </div>
+
+      <div class="frase-acolhedora">
+        <p>“Mesmo nos dias difíceis, há cuidado e pessoas dispostas a ouvir.”</p>
+      </div>
+
+      <div class="acoes-pagina">
+        <a class="botao-pequeno" href="index.html">Voltar</a>
+        <a class="botao-pequeno" href="reflexao.html">Ir para Reflexão</a>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>Você importa. Sempre há alguém disposto a ouvir.</p>
-  </footer>
-
+  <!-- script leve apenas para o botão de frases -->
   <script src="script.js"></script>
+  <footer class="rodape">
+    <div>© 2025 — Portal de Apoio à Saúde Mental</div>
+  </footer>
 </body>
 </html>

@@ -1,35 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Portal de Apoio à Saúde Mental</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
-  <header>
-    <h1>Portal de Apoio à Saúde Mental</h1>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="informacoes.html">Informações</a>
-      <a href="apoio.html">Apoio</a>
-      <a href="reflexao.html">Reflexão</a>
-      <a href="sobre.html">Sobre</a>
-    </nav>
-    <button id="modoEscuro">🌙 Modo Escuro</button>
-  </header>
+<body class="pagina">
+  <header class="cabecalho">
+  <div class="conteudo">
+    <div class="titulo-bloco">
+      <img src="mind portal.png" alt="Logo Mind Portal" class="logo-site">
+      <h1 class="titulo-principal">Mind Portal</h1>
+      <p class="subtitulo">Um espaço para cuidar de você</p>
+    </div>
 
-  <main>
-    <h2>Bem-vindo(a)!</h2>
-    <p>Este portal foi criado para oferecer acolhimento, informações e um espaço de reflexão sobre a importância da saúde mental.</p>
-    <p>Aqui você pode aprender, se expressar e encontrar apoio sempre que precisar.</p>
-    <p>Explore as páginas e descubra dicas, contatos úteis e reflexões que podem te ajudar no dia a dia.</p>
+    <nav class="menu">
+      <a href="index.html" class="menu-link">Início</a>
+      <a href="apoio.html" class="menu-link">Apoio</a>
+      <a href="reflexao.html" class="menu-link">Reflexão</a>
+      <a href="informacoes.html" class="menu-link">Informações</a>
+      <a href="sobre.html" class="menu-link">sobre</a>
+    </nav>
+  </div>
+</header>
+
+
+  <main class="principal">
+    <section class="boas-vindas">
+      <div class="texto-boas-vindas">
+        <h2>Seja bem-vindo(a)</h2>
+        <p>Este portal foi criado para oferecer acolhimento, dicas práticas e um lugar simples para você pensar sobre o que sente.</p>
+        <div class="botoes-acao">
+          <a class="botao-grande" href="reflexao.html">Ir para Reflexão</a>
+          <a class="botao-leve" href="apoio.html">Ver Contatos de Apoio</a>
+        </div>
+      </div>
+
+      <aside class="frases-animadas" aria-hidden="true">
+        <div class="faixa">
+          <p>Você importa • Respire profundamente • Um dia de cada vez • Peça ajuda quando precisar</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="secao-destaques">
+      <article class="cartao">
+        <h3>Informações</h3>
+        <p>Textos simples sobre autocuidado, sono, alimentação, respiração e quando procurar um profissional.</p>
+        <a class="link-cartao" href="informacoes.html">Ler mais</a>
+      </article>
+
+      <article class="cartao">
+        <h3>Espaço de Reflexão</h3>
+        <p>Um lugar para escrever o que sente. Você pode copiar o texto e salvar no seu computador.</p>
+        <a class="link-cartao" href="reflexao.html">Escrever agora</a>
+      </article>
+
+      <article class="cartao">
+        <h3>Contatos de Apoio</h3>
+        <p>Serviços que oferecem atendimento imediato, confidencial e gratuito em muitos casos.</p>
+        <a class="link-cartao" href="apoio.html">Ver contatos</a>
+      </article>
+    </section>
+
+    <section class="secao-maior">
+      <h2>Pequenas ações que ajudam</h2>
+      <ul class="lista-dicas">
+        <li><strong>Respire:</strong> inspire 4s, segure 2s, expire 6s.</li>
+        <li><strong>Durma:</strong> tente dormir em horários regulares.</li>
+        <li><strong>Mova-se:</strong> 15–30 minutos de atividade leve ajudam.</li>
+        <li><strong>Fale:</strong> dividir o que sente com alguém de confiança.</li>
+      </ul>
+      <p class="rodape-secao">Estas dicas ajudam no dia a dia — se sentir que precisa, procure um profissional.</p>
+    </section>
   </main>
 
-  <footer>
-    <p>Feito com 💚 para promover o cuidado e o bem-estar</p>
+  <footer class="rodape">
+    <div>© 2025 — Portal de Apoio à Saúde Mental • Projeto Escolar</div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
+
