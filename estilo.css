@@ -390,7 +390,7 @@ body.pagina {
 
 .logo-site {
   width: 150px;
-  margin-right: -12px;
+  margin-right: -20px;
   vertical-align: middle;
   animation: aparecer 1s ease-in-out;
 }
