@@ -1,5 +1,3 @@
-// script.js — apenas para mostrar frases motivacionais na página de Apoio.
-// Não usa nada complicado — fácil de entender.
 
 (function () {
   var botao = document.getElementById('botaoFrase');
