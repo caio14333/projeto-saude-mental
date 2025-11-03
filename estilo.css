@@ -418,3 +418,35 @@ body.pagina {
 .logo-site:hover {
     transform: scale(1.05); 
 }
+
+/* pagina login */
+.login-box {
+    background: var(--cartao);
+    padding: 40px;
+    border-radius: var(--raio);
+    box-shadow: var(--sombra);
+    max-width: 400px;
+    margin: 80px auto;
+    text-align: center;
+}
+.login-box h2 {
+    margin-bottom: 30px;
+    color: var(--verde-pastel);
+}
+.login-box .user-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--texto);
+    border: none;
+    border-bottom: 2px solid var(--texto-claro);
+    background: transparent;
+    outline: none;
+}
+.imagem-login {
+    margin: -100px
+}
