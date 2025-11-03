@@ -420,6 +420,15 @@ body.pagina {
 }
 
 /* pagina login */
+.login{
+  background-color: (var(--fundo-2));
+}
+  .left, .right {
+      float: left;
+      width: 50%; /* Cada lado ocupa 50% */
+      height: 100%; /* Altura total */
+
+}
 .login-box {
     background: var(--cartao);
     padding: 40px;
@@ -428,6 +437,7 @@ body.pagina {
     max-width: 400px;
     margin: 80px auto;
     text-align: center;
+    background-color: (var(--verde-pastel));
 }
 .login-box h2 {
     margin-bottom: 30px;
@@ -443,10 +453,31 @@ body.pagina {
     font-size: 16px;
     color: var(--texto);
     border: none;
-    border-bottom: 2px solid var(--texto-claro);
+    border-bottom: 2px solid var(--azul-pastel);
     background: transparent;
     outline: none;
+    border-radius: 20px; 
 }
 .imagem-login {
     margin: -100px
+}
+.user-box{
+  border-radius: 15px; 
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 0 auto
+}
+
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--texto-claro);
+    pointer-events: none;
+    transition: 0.5s;
 }
