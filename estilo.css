@@ -419,22 +419,17 @@ body.pagina {
     transform: scale(1.05); 
 }
 
-/* ====== RESET ====== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+/*  login  */
 
-/* ====== CORES ====== */
+
+/*  cores  */
 :root {
   --azul: #4fa4d6;
   --verde: #9ed9b7;
   --texto: #21323a;
 }
 
-/* ====== VÍDEO DE FUNDO ====== */
+/*  video de fundo   */
 .bg-video {
   position: fixed;
   top: 0;
@@ -453,7 +448,7 @@ body.pagina {
   z-index: -1;
 }
 
-/* ====== CAIXA DE LOGIN ====== */
+/*  caixa de login */
 .login-box {
   position: absolute;
   top: 50%;
@@ -475,14 +470,14 @@ body.pagina {
   animation: fadeUp 1.2s ease forwards;
 }
 
-/* ====== LOGO ====== */
+/* logo */
 .logo {
   width: 190px;
   margin-bottom: 20px;
   filter: drop-shadow(0 0 6px rgba(79, 164, 214, 0.5));
 }
 
-/* ====== TÍTULOS ====== */
+/* titulo */
 h2 {
   color: white;
   font-size: 22px;
@@ -495,7 +490,7 @@ h2 {
   margin-bottom: 25px;
 }
 
-/* ====== INPUTS ====== */
+/* inputs */
 .input-group {
   text-align: left;
   margin-bottom: 18px;
@@ -530,8 +525,8 @@ h2 {
   box-shadow: 0 0 8px rgba(79, 164, 214, 0.5);
 }
 
-/* ====== BOTÃO ====== */
-button {
+/* botao */
+button  {
   width: 100%;
   padding: 12px;
   border: none;
@@ -549,7 +544,7 @@ button:hover {
   box-shadow: 0 0 15px rgba(79, 164, 214, 0.6);
 }
 
-/* ====== CADASTRO ====== */
+/* cadastro */
 .cadastro {
   margin-top: 20px;
   font-size: 14px;
@@ -566,7 +561,7 @@ button:hover {
   text-decoration: underline;
 }
 
-/* ====== ANIMAÇÃO ====== */
+/* animaçao */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -578,7 +573,7 @@ button:hover {
   }
 }
 
-/* ====== RESPONSIVO ====== */
+/* responsivo */
 @media (max-width: 900px) {
   .login-box {
     position: static;
