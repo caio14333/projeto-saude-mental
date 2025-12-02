@@ -1,85 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portal de Apoio à Saúde Mental</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Mind Portal</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
-<body class="pagina">
-  <header class="cabecalho">
-  <div class="conteudo">
-    <div class="titulo-bloco">
-      <img src="mind portal.png" alt="Logo Mind Portal" class="logo-site">
-      <h1 class="titulo-principal">Mind Portal</h1>
-      <p class="subtitulo">Um espaço para cuidar de você</p>
-    </div>
+<body>
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="videoplayback.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos.
+  </video>
 
-    <nav class="menu">
-      <a href="index.html" class="menu-link">Início</a>
-      <a href="apoio.html" class="menu-link">Apoio</a>
-      <a href="informacoes.html" class="menu-link">Informações</a>
-      <a href="reflexao.html" class="menu-link">Reflexão</a>
-      <a href="sobre.html" class="menu-link">Sobre</a>
-    </nav>
-  </div>
-</header>
+
+  <div class="overlay"></div>
 
   
+  <div class="login-box">
+    <img src="mind portal.png" alt="Logo Mind Portal" class="logo">
 
+    <h2>Bem-vindo ao Mind Portal</h2>
+    <p class="sub">Entre para continuar sua jornada</p>
 
-  <main class="principal">
-    <section class="boas-vindas">
-      <div class="texto-boas-vindas">
-        <h2>Seja bem-vindo(a)</h2>
-        <p>Este portal foi criado para oferecer acolhimento, dicas práticas e um lugar simples para você pensar sobre o que sente.</p>
-        <div class="botoes-acao">
-          <a class="botao-grande" href="reflexao.html">Ir para Reflexão</a>
-          <a class="botao-leve" href="apoio.html">Ver Contatos de Apoio</a>
-        </div>
+    <form>
+      <div class="input-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail" required>
       </div>
 
-      <aside class="frases-animadas" aria-hidden="true">
-        <div class="faixa">
-          <p>Você importa • Respire profundamente • Um dia de cada vez • Peça ajuda quando precisar</p>
-        </div>
-      </aside>
-    </section>
+      <div class="input-group">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Digite sua senha" required>
+      </div>
 
-    <section class="secao-destaques">
-      <article class="cartao">
-        <h3>Informações</h3>
-        <p>Textos simples sobre autocuidado, sono, alimentação, respiração e quando procurar um profissional.</p>
-        <a class="link-cartao" href="informacoes.html">Ler mais</a>
-      </article>
+      <button type="submit" ><a href="index.html">Entrar</a> </button>
+    </form>
 
-      <article class="cartao">
-        <h3>Espaço de Reflexão</h3>
-        <p>Um lugar para escrever o que sente. Você pode copiar o texto e salvar no seu computador.</p>
-        <a class="link-cartao" href="reflexao.html">Escrever agora</a>
-      </article>
-
-      <article class="cartao">
-        <h3>Contatos de Apoio</h3>
-        <p>Serviços que oferecem atendimento imediato, confidencial e gratuito em muitos casos.</p>
-        <a class="link-cartao" href="apoio.html">Ver contatos</a>
-      </article>
-    </section>
-
-    <section class="secao-maior">
-      <h2>Pequenas ações que ajudam</h2>
-      <ul class="lista-dicas">
-        <li><strong>Respire:</strong> inspire 4s, segure 2s, expire 6s.</li>
-        <li><strong>Durma:</strong> tente dormir em horários regulares.</li>
-        <li><strong>Mova-se:</strong> 15–30 minutos de atividade leve ajudam.</li>
-        <li><strong>Fale:</strong> dividir o que sente com alguém de confiança.</li>
-      </ul>
-      <p class="rodape-secao">Estas dicas ajudam no dia a dia — se sentir que precisa, procure um profissional.</p>
-    </section>
-  </main>
-
-  <footer class="rodape">
-    <div>© 2025 — Portal de Apoio à Saúde Mental • Projeto Escolar</div>
-  </footer>
+    <p class="cadastro">Ainda não tem conta? <a href="#">Cadastre-se</a></p>
+  </div>
 </body>
 </html>
